@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Virtual environment
+env/
+venv/
+face_env/
+ENV/
+.venv/
+.env/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Embeddings and face data
+embeddings/
+attendance.csv
+
+# Face images (optional, if faces are large or private)
+faces/
+
+# OS-specific
+*.swp
+*.bak
+*.tmp
